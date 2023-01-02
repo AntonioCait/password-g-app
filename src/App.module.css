@@ -1,0 +1,36 @@
+.sectionContainer{
+    display: grid;
+    place-content: center;
+}
+
+.mainContainer{
+    width: 500px;
+}
+
+/*media query tablet*/
+@media screen and (max-width: 768px){
+    .mainContainer{
+        width: 100%;
+    }
+}
+
+/*media query mobile*/
+@media screen and (max-width: 480px){
+    .mainContainer{
+        width: 100%;
+    }
+}
+
+/*media query mobile*/
+@media screen and (max-width: 320px){
+    .mainContainer{
+        width: 100%;
+    }
+}
+
+/*media query mobile*/
+@media screen and (max-width: 280px){
+    .mainContainer{
+        width: 100%;
+    }
+}
